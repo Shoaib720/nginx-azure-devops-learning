@@ -19,8 +19,8 @@ variables:
   # Agent VM image name
 pool:
   name: SelfHostedAgentPool
-    # demands:
-    # - agent.name -equals shoaibNeosoftAdoRunner
+  demands:
+    - agent.name -equals shoaibNeosoftAdoRunner
 
 stages:
 - stage: Build
