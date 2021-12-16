@@ -17,8 +17,8 @@ variables:
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
-  pool:
-    name: SelfHostedAgentPool
+pool:
+  name: SelfHostedAgentPool
     # demands:
     # - agent.name -equals shoaibNeosoftAdoRunner
 
